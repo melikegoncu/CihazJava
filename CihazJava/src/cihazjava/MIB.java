@@ -18,7 +18,7 @@ public class MIB implements IMIB {
         DatabaseConnection data=DatabaseConnection.DatabaseOl();   
 
 
-    public static IMIB AgArayuzuolus()
+    public static IMIB MIBolus()
     {
         if(mib==null)
             mib=new MIB();
