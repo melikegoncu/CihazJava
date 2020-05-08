@@ -13,9 +13,9 @@ package cihazjava;
 public class Test  {
 
     public static void main(String[] args){
-        MIB mib=new MIB();
-        mib.Giris();
-        mib.Menu();
+            IMIB imib=MIB.MIBolus();   
+            imib.Giris();
+            imib.Menu();
     }
 
 
